@@ -1,8 +1,5 @@
-HELP.md
-target/
-!.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
+# Exclude these by default
+target/  # Exclude the target directory
 
 ### STS ###
 .apt_generated
@@ -26,8 +23,15 @@ target/
 /nbdist/
 /.nb-gradle/
 build/
-!**/src/main/**/build/
-!**/src/test/**/build/
 
 ### VS Code ###
 .vscode/
+
+# Exclude these by default, but include exceptions below
+*.log
+
+# Include these specific files or directories
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+!HELP.md  # Include HELP.md file
