@@ -1,17 +1,7 @@
-# Exclude these by default
-target/  # Exclude the target directory
-
 ### STS ###
 .apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
 
 ### IntelliJ IDEA ###
-.idea
 *.iws
 *.iml
 *.ipr
@@ -21,17 +11,9 @@ target/  # Exclude the target directory
 /nbbuild/
 /dist/
 /nbdist/
-/.nb-gradle/
-build/
 
 ### VS Code ###
 .vscode/
 
 # Exclude these by default, but include exceptions below
 *.log
-
-# Include these specific files or directories
-!.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
-!HELP.md  # Include HELP.md file
